@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+*{
+    font-family: 'Archivo Black', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 800px;
+    height: 250px;
+    background-color: coral;
+    position: relative;
+}
+
+.rectangulo {
+    border: 5px dotted blueviolet;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.r200x50{
+    width: 200px;
+    height: 50px;
+    top: 120px;
+    left: 70px;
+}
+
+.r125x75{
+    width: 125px;
+    height: 75px;
+    top: 25px;
+    left: 640px;
+}
+
+.r30x160{
+    width: 100px;
+    height: 160px;
+    top: -100px;
+    left: 410px;
+}
+
+.circulo{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px dotted blueviolet;
+    background-color: white;
+    position: relative;
+    bottom: 280px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado20050{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: crimson;  
+    top: -80px;
+    left: -90px
+}
+
+.cuadrado12575{
+    position: absolute;
+    width: 125px;
+    height: 75px;
+    background-color: darkblue;  
+    top: 380px;
+    right: -220px;
+}
+
+.cuadrado100160{
+    position: absolute;
+    width: 100px;
+    height: 160px;
+    background-color: gold;  
+    bottom: 160px;
+    right: -250px;
+}
+
+
+.circ{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: lightseagreen;
+    position: absolute;
+    left: 770px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
